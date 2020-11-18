@@ -9,101 +9,76 @@ import {
   CardTitle,
   Col,
   Container,
-
   Row,
 } from "reactstrap";
 
 class ProfesseurMain extends Component {
-  
   render() {
     return (
       <>
         <NavBar />
-        <div className="main" >
+        <div className="main">
           <div className="content-center">
             <Container>
-              <Row >
-                <Col md="2" sm="3">
-                  <h6
-                    className="title text-primary"
-                    style={{ marginLeft: "60px" }}
-                  >
-                    Les Ateliers
-                  </h6>
+              <>
+                <div className="text-center">
+                  <Row>
+                    <Col className="ml-auto mr-auto text-center" md="8">
+                      <h2 className="title">Les professeurs</h2>
+                      <p className="description">
+                        Cause if you do, it can be yours for Free. Hit the
+                        button below and download it. Start a new project or
+                        give an old Bootstrap 4 project a new look.
+                      </p>
+                    </Col>
+                  </Row>
+                </div>
+                <Row style={{ marginTop: "50px" }}>
+                  <Col className="col-auto">
+                    <Card style={{ width: "20rem" }} className="text-center">
+                      <CardBody>
+                        <CardTitle>Special title treatment</CardTitle>
+                        <CardText>
+                          With supporting text below as a natural lead-in to
+                          additional content.
+                        </CardText>
+                        <Button href="/#" color="primary">
+                          Go somewhere
+                        </Button>
+                      </CardBody>
+                    </Card>
+                  </Col>
+                  <Col className="col-auto">
+                    <Card style={{ width: "20rem" }} className="text-center">
+                      <CardBody>
+                        <CardTitle>Special title treatment</CardTitle>
+                        <CardText>
+                          With supporting text below as a natural lead-in to
+                          additional content.
+                        </CardText>
+                        <Button href="/#" color="primary">
+                          Go somewhere
+                        </Button>
+                      </CardBody>
+                    </Card>
+                  </Col>
 
-                  <Card style={{ width: "20rem" }} className="text-center">
-                    <CardBody>
-                      <CardTitle>Special title treatment</CardTitle>
-                      <CardText>
-                        With supporting text below as a natural lead-in to
-                        additional content.
-                      </CardText>
-                   
-                    </CardBody>
-                  </Card>
-                  <Button
-                    className="btn-round"
-                    color="primary"
-                    outline
-                    style={{ marginLeft: "100px" }}
-                  >
-                    <i className="nc-icon nc-minimal-down" />
-                    plus
-                  </Button>
-                </Col>
-                <Col className="mr-auto ml-auto" md="2" sm="3">
-                  <h6
-                    className="title text-primary"
-                    style={{ marginLeft: "60px" }}
-                  >
-                    Les Examens
-                  </h6>
-                  <Card style={{ width: "20rem" }} className="text-center">
-                    <CardBody>
-                      <CardTitle>Special title treatment</CardTitle>
-                      <CardText>
-                        With supporting text below as a natural lead-in to
-                        additional content.
-                      </CardText>
-                    </CardBody>
-                  </Card>
-                  <Button
-                    className="btn-round"
-                    color="primary"
-                    outline
-                    style={{ marginLeft: "100px" }}
-                  >
-                    <i className="nc-icon nc-minimal-down" />
-                    plus
-                  </Button>
-                </Col>
-                <Col className="mr-auto" md="2" sm="3">
-                  <h6
-                    className="title text-primary"
-                    style={{ marginLeft: "50px" }}
-                  >
-                    Les Etudiants
-                  </h6>
-                  <Card style={{ width: "20rem" }}>
-                    <CardBody>
-                      <CardTitle>Special title treatment</CardTitle>
-                      <CardText>
-                        With supporting text below as a natural lead-in to
-                        additional content.
-                      </CardText>
-                    </CardBody>
-                  </Card>
-                  <Button
-                    className="btn-round"
-                    color="primary"
-                    outline
-                    style={{ marginLeft: "100px" }}
-                  >
-                    <i className="nc-icon nc-minimal-down" />
-                    plus
-                  </Button>
-                </Col>
-              </Row>
+                  <Col className="col-auto">
+                    <Card style={{ width: "20rem" }} className="text-center">
+                      <CardBody>
+                        <CardTitle>Special title treatment</CardTitle>
+                        <CardText>
+                          With supporting text below as a natural lead-in to
+                          additional content.
+                        </CardText>
+                        <Button href="/#" color="primary">
+                          Go somewhere
+                        </Button>
+                      </CardBody>
+                    </Card>
+                  </Col>
+                </Row>
+              </>
             </Container>
           </div>
           <DemoFooter />

@@ -75,12 +75,12 @@ function NavBar() {
               <Nav className="mr-auto mt-2 mt-lg-0" navbar>
                 <NavItem className="active">
                   <NavLink href="/professeur-page" >
-                    Professeur 
+                    Professeurs 
                   </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/module-page" >
-                    Module
+                    Modules
                   </NavLink>
                 </NavItem>
               </Nav>
